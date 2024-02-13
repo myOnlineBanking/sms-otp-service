@@ -1,0 +1,83 @@
+2022-02-03 09:42:08.048  INFO 7460 --- [main] j.e.s.SmsOtpServiceApplication           : Starting SmsOtpServiceApplication using Java 1.8.0_202 on DESKTOP-MFJBM3L with PID 7460 (C:\Users\werty\3D Objects\flutterProject\herokuDeployments\sms-otp-service\target\classes started by werty in C:\Users\werty\3D Objects\flutterProject\herokuDeployments\sms-otp-service)
+2022-02-03 09:42:08.056  INFO 7460 --- [main] j.e.s.SmsOtpServiceApplication           : No active profile set, falling back to default profiles: default
+2022-02-03 09:42:11.672  INFO 7460 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5d4fbf36-cdf2-3a5e-aa92-8f729d4cb18c
+2022-02-03 09:42:12.509  INFO 7460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-03 09:42:12.537  INFO 7460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-03 09:42:12.538  INFO 7460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-03 09:42:13.004  INFO 7460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-03 09:42:13.005  INFO 7460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4833 ms
+2022-02-03 09:42:17.020  INFO 7460 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-03 09:42:21.068  INFO 7460 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-03 09:42:21.089  INFO 7460 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-03 09:42:21.172  WARN 7460 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-03 09:42:21.181  INFO 7460 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-03 09:42:21.304  INFO 7460 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-03 09:42:21.370  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-03 09:42:21.380  INFO 7460 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-03 09:42:21.423  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-03 09:42:21.423  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-03 09:42:21.423  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-03 09:42:21.423  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-03 09:42:21.424  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-03 09:42:21.424  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-03 09:42:21.424  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-03 09:42:22.422  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-03 09:42:22.428  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-03 09:42:22.434  INFO 7460 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-03 09:42:22.444  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643877742441 with initial instances count: 9
+2022-02-03 09:42:22.447  INFO 7460 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SMS-OTP-SERVICE with eureka with status UP
+2022-02-03 09:42:22.448  INFO 7460 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643877742448, current=UP, previous=STARTING]
+2022-02-03 09:42:22.453  INFO 7460 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE: registering service...
+2022-02-03 09:42:22.528  INFO 7460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-03 09:42:22.530  INFO 7460 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2022-02-03 09:42:22.906  INFO 7460 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE - registration status: 204
+2022-02-03 09:42:24.403  INFO 7460 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-03 09:42:24.466  INFO 7460 --- [main] j.e.s.SmsOtpServiceApplication           : Started SmsOtpServiceApplication in 20.103 seconds (JVM running for 25.671)
+2022-02-03 09:42:24.924  INFO 7460 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 836aca8857cf
+2022-02-03 09:42:26.024  INFO 7460 --- [RMI TCP Connection(5)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-03 09:42:26.024  INFO 7460 --- [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-03 09:42:26.029  INFO 7460 --- [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-02-03 09:46:55.788  INFO 7460 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SMS-OTP-SERVICE with eureka with status DOWN
+2022-02-03 09:46:55.790  INFO 7460 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643878015789, current=DOWN, previous=UP]
+2022-02-03 09:46:55.791  INFO 7460 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE: registering service...
+2022-02-03 09:46:55.898  INFO 7460 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE - registration status: 204
+2022-02-03 09:46:56.556  INFO 7460 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-03 09:46:59.567  INFO 7460 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-03 09:46:59.655  INFO 7460 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE - deregister  status: 200
+2022-02-03 09:46:59.672  INFO 7460 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[30m2022-02-03 14:38:51,010[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.boot.StartupInfoLogger[0;39m : Starting SmsOtpServiceApplicationTests using Java 1.8.0_202 on DESKTOP-MFJBM3L with PID 12140 (started by werty in C:\Users\werty\3D Objects\flutterProject\herokuDeployments\sms-otp-service)
+[30m2022-02-03 14:38:51,015[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.boot.SpringApplication[0;39m : No active profile set, falling back to default profiles: default
+[30m2022-02-03 14:38:53,290[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.cloud.context.scope.GenericScope[0;39m : BeanFactory id=5501a131-2ced-30f9-a357-3505bfa99d8c
+[30m2022-02-03 14:38:57,485[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.cloud.commons.util.InetUtils[0;39m : Cannot determine local hostname
+[30m2022-02-03 14:39:03,276[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.cloud.commons.util.InetUtils[0;39m : Cannot determine local hostname
+[30m2022-02-03 14:39:04,945[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration[0;39m : Eureka HTTP Client uses RestTemplate.
+[30m2022-02-03 14:39:08,917[0;39m [31m[0;39m WARN [[34mmain[0;39m] [33morg.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger[0;39m : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[30m2022-02-03 14:39:08,940[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.boot.actuate.endpoint.web.EndpointLinksResolver[0;39m : Exposing 17 endpoint(s) beneath base path '/actuator'
+[30m2022-02-03 14:39:09,346[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.cloud.netflix.eureka.InstanceInfoFactory[0;39m : Setting initial instance status as: STARTING
+[30m2022-02-03 14:39:10,775[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Initializing Eureka in region us-east-1
+[30m2022-02-03 14:39:10,805[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.shared.resolver.aws.ConfigClusterResolver[0;39m : Resolving eureka endpoints via configuration
+[30m2022-02-03 14:39:10,867[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Disable delta property : false
+[30m2022-02-03 14:39:10,868[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Single vip registry refresh property : null
+[30m2022-02-03 14:39:10,869[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Force full registry fetch : false
+[30m2022-02-03 14:39:10,869[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Application is null : false
+[30m2022-02-03 14:39:10,870[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Registered Applications size is zero : true
+[30m2022-02-03 14:39:10,871[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Application version is -1: true
+[30m2022-02-03 14:39:10,871[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Getting all instance registry info from the eureka server
+[30m2022-02-03 14:39:11,886[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : The response status is 200
+[30m2022-02-03 14:39:11,892[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Starting heartbeat executor: renew interval is: 30
+[30m2022-02-03 14:39:11,897[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.InstanceInfoReplicator[0;39m : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[30m2022-02-03 14:39:11,907[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Discovery Client initialized at timestamp 1643895551903 with initial instances count: 10
+[30m2022-02-03 14:39:11,916[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry[0;39m : Registering application SMS-OTP-SERVICE with eureka with status UP
+[30m2022-02-03 14:39:11,918[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33mcom.netflix.discovery.DiscoveryClient$3[0;39m : Saw local status change event StatusChangeEvent [timestamp=1643895551918, current=UP, previous=STARTING]
+[30m2022-02-03 14:39:11,923[0;39m [34m[0;39m INFO [[34mDiscoveryClient-InstanceInfoReplicator-0[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE: registering service...
+[30m2022-02-03 14:39:11,973[0;39m [34m[0;39m INFO [[34mmain[0;39m] [33morg.springframework.boot.StartupInfoLogger[0;39m : Started SmsOtpServiceApplicationTests in 23.639 seconds (JVM running for 27.681)
+[30m2022-02-03 14:39:12,333[0;39m [34m[0;39m INFO [[34mDiscoveryClient-InstanceInfoReplicator-0[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE - registration status: 204
+[30m2022-02-03 14:39:12,388[0;39m [34m[0;39m INFO [[34mregistrationTask1[0;39m] [33mde.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator[0;39m : Application registered itself as 836aca8857cf
+[30m2022-02-03 14:39:12,442[0;39m [34m[0;39m INFO [[34mSpringApplicationShutdownHook[0;39m] [33morg.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry[0;39m : Unregistering application SMS-OTP-SERVICE with eureka with status DOWN
+[30m2022-02-03 14:39:12,443[0;39m [34m[0;39m INFO [[34mSpringApplicationShutdownHook[0;39m] [33mcom.netflix.discovery.DiscoveryClient$3[0;39m : Saw local status change event StatusChangeEvent [timestamp=1643895552443, current=DOWN, previous=UP]
+[30m2022-02-03 14:39:12,443[0;39m [34m[0;39m INFO [[34mDiscoveryClient-InstanceInfoReplicator-0[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE: registering service...
+[30m2022-02-03 14:39:12,453[0;39m [34m[0;39m INFO [[34mSpringApplicationShutdownHook[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Shutting down DiscoveryClient ...
+[30m2022-02-03 14:39:12,537[0;39m [34m[0;39m INFO [[34mDiscoveryClient-InstanceInfoReplicator-0[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE - registration status: 204
+[30m2022-02-03 14:39:12,539[0;39m [34m[0;39m INFO [[34mSpringApplicationShutdownHook[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Unregistering ...
+[30m2022-02-03 14:39:12,614[0;39m [34m[0;39m INFO [[34mSpringApplicationShutdownHook[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : DiscoveryClient_SMS-OTP-SERVICE/localhost:SMS-OTP-SERVICE - deregister  status: 200
+[30m2022-02-03 14:39:12,619[0;39m [34m[0;39m INFO [[34mSpringApplicationShutdownHook[0;39m] [33mcom.netflix.discovery.DiscoveryClient[0;39m : Completed shut down of DiscoveryClient
